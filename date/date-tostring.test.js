@@ -1,6 +1,6 @@
 const event = new Date('August 19, 1975 23:15:30');
 
-test('toString test', () => {
+test('tostring test', () => {
     expect(event.toString()).toEqual("Tue Aug 19 1975 23:15:30 GMT+0200 (hora de verano de Europa central)");
 });
 
