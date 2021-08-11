@@ -4,8 +4,8 @@ const event2 = new Date();
 event2.setTime(event1.getTime());
 
 test('setTime test', () => {
-    expect(event1).toEqual(1999-06-30T22:00:00.000Z);
-    expect(event2).toEqual(1999-06-30T22:00:00.000Z);
+    expect(event1.toString()).toEqual("Thu Jul 01 1999 00:00:00 GMT+0200 (hora de verano de Europa central)");
+    expect(event2.toString()).toEqual("Thu Jul 01 1999 00:00:00 GMT+0200 (hora de verano de Europa central)");
 });
 
 // console.log(event1);
